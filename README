@@ -1,2 +1,2 @@
 Set the server.port=5000 in the application.properties file before deploying this code to AWS Elastic Bean Stalk.
-I have a recording where I explain this issue.
+I have a recording where I explain this issue in that Bean Stalk uses NGNIX as a reverse proxy that listens at Port 5000.
