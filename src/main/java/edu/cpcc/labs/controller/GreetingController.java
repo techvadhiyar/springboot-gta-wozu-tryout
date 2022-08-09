@@ -20,6 +20,7 @@ public class GreetingController {
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {   	
     	
     	// adding a comment to start the build...
+    	// adding another comment to start the build...
     	
     	Greeting greeting = null;
 		// the counter value odd (i.e. 1, 3, 5, 7, ...)
