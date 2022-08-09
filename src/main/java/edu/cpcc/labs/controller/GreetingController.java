@@ -21,7 +21,8 @@ public class GreetingController {
     	
     	// adding a comment to start the build...
     	// adding another comment to start the build...
-    	
+    	// adding another comment to start the build...
+    	    	
     	Greeting greeting = null;
 		// the counter value odd (i.e. 1, 3, 5, 7, ...)
         long newCounter = 0; //initialize
