@@ -19,6 +19,8 @@ public class GreetingController {
     // Example: /api/greetings/greeting?name=john
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {   	
     	
+    	// adding a comment to start the build...
+    	
     	Greeting greeting = null;
 		// the counter value odd (i.e. 1, 3, 5, 7, ...)
         long newCounter = 0; //initialize
