@@ -11,7 +11,6 @@ on:
 
 jobs:
   build:
-
     runs-on: self-hosted
 
     steps:
@@ -24,5 +23,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Execute JAR
+    #- name: Execute JAR
       #run: sudo kill -9 'sudo lsof -t -i:8080' & sudo java -jar /actions-runner/_work/springboot-git-starter/springboot-git-starter/target/springboot-git-starter-0.0.1-SNAPSHOT.jar &
