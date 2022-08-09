@@ -14,6 +14,8 @@ public class GreetingController {
 
 	private static final String template = "Greetings, %s!";
     private final AtomicLong counter = new AtomicLong(); // stateful counter...
+//this is a comment
+  //this is a comment2
 
     @GetMapping("/api/greetings/greeting")
     // Example: /api/greetings/greeting?name=john
