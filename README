@@ -1,1 +1,2 @@
 Exemplar project illustrating the integration of Spring Boot with Git Hub Actions using a self contained runner. The runner is deployed on an EC2 instance. 
+When deployed on EC2, the Service will run on Port 8080.
